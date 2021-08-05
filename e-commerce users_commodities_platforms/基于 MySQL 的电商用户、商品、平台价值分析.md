@@ -8,7 +8,7 @@
 
 ##### 1.1 分析流程
 
-![image-20210804141819356](基于 MySQL 的电商用户、商品、平台价值分析.assets/image-20210804141819356.png)
+![image-20210804141819356](https://raw.githubusercontent.com/Joannnnnna/Data_Analysis/main/e-commerce%20users_commodities_platforms/%E5%9F%BA%E4%BA%8E%20MySQL%20%E7%9A%84%E7%94%B5%E5%95%86%E7%94%A8%E6%88%B7%E3%80%81%E5%95%86%E5%93%81%E3%80%81%E5%B9%B3%E5%8F%B0%E4%BB%B7%E5%80%BC%E5%88%86%E6%9E%90.assets/image-20210804141819356.png)
 
 
 
