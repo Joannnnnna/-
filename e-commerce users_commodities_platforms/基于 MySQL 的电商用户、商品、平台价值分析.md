@@ -99,7 +99,7 @@ SELECT * FROM o_retailers_trade_user LIMIT 10
 
 处理后的数据，取前10行，如下
 
-![image-20210804114359993](基于 MySQL 的电商用户、商品、平台价值分析.assets/image-20210804114359993.png)
+![image-20210804114359993](https://raw.githubusercontent.com/Joannnnnna/Data_Analysis/main/e-commerce%20users_commodities_platforms/%E5%9F%BA%E4%BA%8E%20MySQL%20%E7%9A%84%E7%94%B5%E5%95%86%E7%94%A8%E6%88%B7%E3%80%81%E5%95%86%E5%93%81%E3%80%81%E5%B9%B3%E5%8F%B0%E4%BB%B7%E5%80%BC%E5%88%86%E6%9E%90.assets/image-20210804114359993.png)
 
 
 
@@ -125,7 +125,7 @@ GROUP BY dates
 
 部分查询结果
 
-![image-20210804142806022](基于 MySQL 的电商用户、商品、平台价值分析.assets/image-20210804142806022.png)
+![image-20210804142806022](https://raw.githubusercontent.com/Joannnnnna/Data_Analysis/main/e-commerce%20users_commodities_platforms/%E5%9F%BA%E4%BA%8E%20MySQL%20%E7%9A%84%E7%94%B5%E5%95%86%E7%94%A8%E6%88%B7%E3%80%81%E5%95%86%E5%93%81%E3%80%81%E5%B9%B3%E5%8F%B0%E4%BB%B7%E5%80%BC%E5%88%86%E6%9E%90.assets/image-20210804142806022.png)
 
 
 
@@ -165,7 +165,7 @@ from temp_table_trades
 
 留存率的部分查询结果
 
-![image-20210804140332440](基于 MySQL 的电商用户、商品、平台价值分析.assets/image-20210804140332440.png)
+![image-20210804140332440](https://raw.githubusercontent.com/Joannnnnna/Data_Analysis/main/e-commerce%20users_commodities_platforms/%E5%9F%BA%E4%BA%8E%20MySQL%20%E7%9A%84%E7%94%B5%E5%95%86%E7%94%A8%E6%88%B7%E3%80%81%E5%95%86%E5%93%81%E3%80%81%E5%B9%B3%E5%8F%B0%E4%BB%B7%E5%80%BC%E5%88%86%E6%9E%90.assets/image-20210804140332440.png)
 
 
 
@@ -274,7 +274,7 @@ GROUP BY user_class
 
 最后各个分类的用户数量如下
 
-![image-20210804135106364](基于 MySQL 的电商用户、商品、平台价值分析.assets/image-20210804135106364.png)
+![image-20210804135106364](https://raw.githubusercontent.com/Joannnnnna/Data_Analysis/main/e-commerce%20users_commodities_platforms/%E5%9F%BA%E4%BA%8E%20MySQL%20%E7%9A%84%E7%94%B5%E5%95%86%E7%94%A8%E6%88%B7%E3%80%81%E5%95%86%E5%93%81%E3%80%81%E5%B9%B3%E5%8F%B0%E4%BB%B7%E5%80%BC%E5%88%86%E6%9E%90.assets/image-20210804135106364.png)
 
 ##### 5.2 商品指标体系
 
@@ -295,7 +295,7 @@ ORDER BY payn DESC;
 
 查询部分结构如下
 
-![image-20210804140923272](基于 MySQL 的电商用户、商品、平台价值分析.assets/image-20210804140923272.png)
+![image-20210804140923272](https://raw.githubusercontent.com/Joannnnnna/Data_Analysis/main/e-commerce%20users_commodities_platforms/%E5%9F%BA%E4%BA%8E%20MySQL%20%E7%9A%84%E7%94%B5%E5%95%86%E7%94%A8%E6%88%B7%E3%80%81%E5%95%86%E5%93%81%E3%80%81%E5%B9%B3%E5%8F%B0%E4%BB%B7%E5%80%BC%E5%88%86%E6%9E%90.assets/image-20210804140923272.png)
 
 品类的浏览量、收藏量、加购量、购买量，购买转化（购买用户与浏览用户的比值）
 
@@ -314,7 +314,7 @@ ORDER BY payn DESC;
 
 查询的部分截图如下
 
-![image-20210804141239433](基于 MySQL 的电商用户、商品、平台价值分析.assets/image-20210804141239433.png)
+![image-20210804141239433](https://raw.githubusercontent.com/Joannnnnna/Data_Analysis/main/e-commerce%20users_commodities_platforms/%E5%9F%BA%E4%BA%8E%20MySQL%20%E7%9A%84%E7%94%B5%E5%95%86%E7%94%A8%E6%88%B7%E3%80%81%E5%95%86%E5%93%81%E3%80%81%E5%B9%B3%E5%8F%B0%E4%BB%B7%E5%80%BC%E5%88%86%E6%9E%90.assets/image-20210804141239433.png)
 
 ##### 5.3 平台指标体系
 
@@ -336,7 +336,7 @@ ORDER BY payn DESC;
 
 查询结果如下
 
-![image-20210804141655561](基于 MySQL 的电商用户、商品、平台价值分析.assets/image-20210804141655561.png)
+![image-20210804141655561](https://raw.githubusercontent.com/Joannnnnna/Data_Analysis/main/e-commerce%20users_commodities_platforms/%E5%9F%BA%E4%BA%8E%20MySQL%20%E7%9A%84%E7%94%B5%E5%95%86%E7%94%A8%E6%88%B7%E3%80%81%E5%95%86%E5%93%81%E3%80%81%E5%B9%B3%E5%8F%B0%E4%BB%B7%E5%80%BC%E5%88%86%E6%9E%90.assets/image-20210804141655561.png)
 
 
 
@@ -357,7 +357,7 @@ GROUP BY SUBSTRING_INDEX(user_way,'2',1);
 
 有购买行为的不同行为路径的用户数
 
-![image-20210804141732584](基于 MySQL 的电商用户、商品、平台价值分析.assets/image-20210804141732584.png)
+![image-20210804141732584](https://raw.githubusercontent.com/Joannnnnna/Data_Analysis/main/e-commerce%20users_commodities_platforms/%E5%9F%BA%E4%BA%8E%20MySQL%20%E7%9A%84%E7%94%B5%E5%95%86%E7%94%A8%E6%88%B7%E3%80%81%E5%95%86%E5%93%81%E3%80%81%E5%B9%B3%E5%8F%B0%E4%BB%B7%E5%80%BC%E5%88%86%E6%9E%90.assets/image-20210804141732584.png)
 
 #### 6、结论
 
@@ -367,7 +367,7 @@ GROUP BY SUBSTRING_INDEX(user_way,'2',1);
 
 1、UV 异常分析：每日UV 数据中，明显异常点为双十二期间的活动造成，该影响为已知影响。
 
-![image-20210805102041809](基于 MySQL 的电商用户、商品、平台价值分析.assets/image-20210805102041809.png)
+![image-20210805102041809](https://raw.githubusercontent.com/Joannnnnna/Data_Analysis/main/e-commerce%20users_commodities_platforms/%E5%9F%BA%E4%BA%8E%20MySQL%20%E7%9A%84%E7%94%B5%E5%95%86%E7%94%A8%E6%88%B7%E3%80%81%E5%95%86%E5%93%81%E3%80%81%E5%B9%B3%E5%8F%B0%E4%BB%B7%E5%80%BC%E5%88%86%E6%9E%90.assets/image-20210805102041809.png)
 
 
 
@@ -385,13 +385,13 @@ GROUP BY SUBSTRING_INDEX(user_way,'2',1);
 
 3、通过 PV/UV 数据可以看到，页面的平均浏览深度为6左右；
 
-![image-20210805115214239](基于 MySQL 的电商用户、商品、平台价值分析.assets/image-20210805115214239.png)
+![image-20210805115214239](https://raw.githubusercontent.com/Joannnnnna/Data_Analysis/main/e-commerce%20users_commodities_platforms/%E5%9F%BA%E4%BA%8E%20MySQL%20%E7%9A%84%E7%94%B5%E5%95%86%E7%94%A8%E6%88%B7%E3%80%81%E5%95%86%E5%93%81%E3%80%81%E5%B9%B3%E5%8F%B0%E4%BB%B7%E5%80%BC%E5%88%86%E6%9E%90.assets/image-20210805115214239.png)
 
 
 
 4、留存率大致在65%左右，顶峰值的出现原因主要是，双十二当天用户都回到平台上活跃
 
-![image-20210805115145458](基于 MySQL 的电商用户、商品、平台价值分析.assets/image-20210805115145458.png)
+![image-20210805115145458](https://raw.githubusercontent.com/Joannnnnna/Data_Analysis/main/e-commerce%20users_commodities_platforms/%E5%9F%BA%E4%BA%8E%20MySQL%20%E7%9A%84%E7%94%B5%E5%95%86%E7%94%A8%E6%88%B7%E3%80%81%E5%95%86%E5%93%81%E3%80%81%E5%B9%B3%E5%8F%B0%E4%BB%B7%E5%80%BC%E5%88%86%E6%9E%90.assets/image-20210805115145458.png)
 
 
 
@@ -409,7 +409,7 @@ GROUP BY SUBSTRING_INDEX(user_way,'2',1);
 
 4、唤回客户：做定向广告、短信召回策略，尝试召回客户
 
-![image-20210805113527880](基于 MySQL 的电商用户、商品、平台价值分析.assets/image-20210805113527880.png)
+![image-20210805113527880](https://raw.githubusercontent.com/Joannnnnna/Data_Analysis/main/e-commerce%20users_commodities_platforms/%E5%9F%BA%E4%BA%8E%20MySQL%20%E7%9A%84%E7%94%B5%E5%95%86%E7%94%A8%E6%88%B7%E3%80%81%E5%95%86%E5%93%81%E3%80%81%E5%B9%B3%E5%8F%B0%E4%BB%B7%E5%80%BC%E5%88%86%E6%9E%90.assets/image-20210805113527880.png)
 
 
 
@@ -417,7 +417,7 @@ GROUP BY SUBSTRING_INDEX(user_way,'2',1);
 
 热销商品品类如下图所示
 
-![image-20210805142513649](基于 MySQL 的电商用户、商品、平台价值分析.assets/image-20210805142513649.png)
+![image-20210805142513649](https://raw.githubusercontent.com/Joannnnnna/Data_Analysis/main/e-commerce%20users_commodities_platforms/%E5%9F%BA%E4%BA%8E%20MySQL%20%E7%9A%84%E7%94%B5%E5%95%86%E7%94%A8%E6%88%B7%E3%80%81%E5%95%86%E5%93%81%E3%80%81%E5%B9%B3%E5%8F%B0%E4%BB%B7%E5%80%BC%E5%88%86%E6%9E%90.assets/image-20210805142513649.png)
 
 其中 ‘5027’、‘5399’ 的购买转化率较低，需要结合更多数据进行进一步解读。（可能原因：品类自有特性导致用户购买较低，比如非必需品、奢侈品等等）
 
