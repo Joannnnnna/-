@@ -380,7 +380,7 @@ GROUP BY SUBSTRING_INDEX(user_way,'2',1);
 内部问题：产品bug（网站bug）、策略原因（周年庆活动结束了）、营销原因（代言人换了）等
 
 外部原因：竞品活动问题（其他平台大酬宾）、政治环境问题（进口商品限制）、舆情口碑问题（平台商品爆出质量问题）等
-
+![image-20210805102041809](https://raw.githubusercontent.com/Joannnnnna/Data_Analysis/main/e-commerce%20users_commodities_platforms/%E5%9F%BA%E4%BA%8E%20MySQL%20%E7%9A%84%E7%94%B5%E5%95%86%E7%94%A8%E6%88%B7%E3%80%81%E5%95%86%E5%93%81%E3%80%81%E5%B9%B3%E5%8F%B0%E4%BB%B7%E5%80%BC%E5%88%86%E6%9E%90.assets/image-20210805102041809.png)
 
 
 3、通过 PV/UV 数据可以看到，页面的平均浏览深度为6左右；
